@@ -1,11 +1,10 @@
-
 <html>
     <head>
         <title>cholocate sundae</title>
         <link rel="stylesheet" href="my.css">
     </head>
     <body>
-       
+       <h1 >cholocate sundae</h1>
         <p id="demo"></p>
         <img src='cholocatesundae.jpg' id="thisid" onclick="clicked();">
         
@@ -15,14 +14,18 @@
             <source src="sfx.wav" id="music1">   
         </audio>
         <div>
-        <button style="transform: translate(680.5px, 316px); color:teal;" onclick="Jacobs()">Jacob's mod</button>    
-        <button style="transform: translate(680.5px, 316px); color:royalblue;" onclick="Baby()">Baby</button>
-        <button style="transform: translate(680.5px, 316px); color:seagreen;" onclick="Easy()">Easy</button>
-        <button style="transform: translate(680.5px, 316px); color:orange;" onclick="Difficult()">Difficult</button>
-        <button style="color: crimson; transform: translate(680.5px, 316px);" onclick="Impossible()">Impossible</button>
+        <button onclick="Jacobs()" name="Jacobs">Jacob's mod</button>    
+        <button onclick="Baby()" name="Baby">Baby</button>
+        <button onclick="Easy()" name="Easy">Easy</button>
+        <button onclick="Difficult()" name="Difficult">Difficult</button>
+        <button onclick="Impossible()" name="Impossible">Impossible</button>
+        
        </div>
-
-
+       <div id="gameOverDiv">
+        <button onclick="ReloadP()" name="menu">menu</button>
+        <button onclick="Reset()" name="Retry">Retry</button>
+       </div>
+       
         <script src="why.js"></script>
     </body>
 </html>
