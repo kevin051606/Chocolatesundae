@@ -14,7 +14,8 @@ nav{
   top: 5;
   background-color:forestgreen;
 }
-header{
+header
+,body{
   margin: 0px;
   padding: 0px;
 }
