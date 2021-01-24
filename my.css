@@ -2,7 +2,7 @@ nav{
   background-color:greenyellow;
   height: 30px;
 }
-a{
+.nav{
   padding: 3px;
   position:relative;
   top: 5;
