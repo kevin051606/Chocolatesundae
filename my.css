@@ -1,9 +1,16 @@
 nav{
-  background-color:greenyellow;
+  background-color:green;
   height: 30px;
 }
 .nav{
   padding: 3px;
   position:relative;
   top: 5;
+  color:white;
+}
+.nav:hover{
+   padding: 3px;
+  position:relative;
+  top: 5;
+  background-color:forestgreen;
 }
