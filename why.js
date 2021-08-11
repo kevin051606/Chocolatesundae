@@ -192,7 +192,7 @@ function clicked() {
     var FTS = setTimeout(Gameover,1500)
     // For The Sound
     audio4.play()
-    
+    alert("Wrong One");
     })
 
     }
